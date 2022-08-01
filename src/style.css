@@ -1,6 +1,6 @@
 main {
   text-align: center;
-  margin: 80px auto;
+  margin: 75px auto 0;
   padding: 40px;
   background: #fcf8ec;
   max-width: 50%;
@@ -106,4 +106,10 @@ button {
 
 .week-temp {
   margin: 0;
+}
+
+.link {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
 }
