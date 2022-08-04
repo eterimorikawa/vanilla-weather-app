@@ -62,7 +62,6 @@ button {
   font-size: 24px;
   font-weight: 700;
   margin: 27px 0 0;
-  text-transform: capitalize;
 }
 
 .date {
@@ -73,8 +72,11 @@ button {
 }
 
 #description {
-  text-transform: capitalize;
   margin-bottom: 0;
+}
+
+#description::first-letter {
+  text-transform: capitalize;
 }
 
 .main-img {
