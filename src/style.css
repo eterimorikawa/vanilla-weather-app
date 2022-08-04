@@ -1,9 +1,9 @@
 main {
   text-align: center;
-  margin: 75px auto 0;
+  margin: 90px auto 0;
   padding: 40px;
   background: #fcf8ec;
-  max-width: 50%;
+  max-width: 700px;
   border: 1px solid #f7f2e2;
   border-radius: 15px;
   font-family: "Assistant", sans-serif;
@@ -11,7 +11,7 @@ main {
 }
 
 input {
-  width: 60%;
+  width: 70%;
   font-size: 18px;
   color: #456268;
   padding: 6px 10px;
@@ -58,7 +58,7 @@ button {
 .location {
   font-size: 24px;
   font-weight: 700;
-  margin: 30px 0 0;
+  margin: 33px 0 0;
   text-transform: capitalize;
 }
 
@@ -71,6 +71,7 @@ button {
 
 #description {
   text-transform: capitalize;
+  margin-bottom: 0;
 }
 
 .main-img {
@@ -80,7 +81,7 @@ button {
 
 .main-temp {
   font-size: 34px;
-  margin: 32px 0 0;
+  margin: 25px 0 0;
 }
 
 #celsius-link {
@@ -92,7 +93,7 @@ button {
 }
 
 .details {
-  margin: 40px 0 0;
+  margin: 30px 0 0;
 }
 
 .week-day {
@@ -111,6 +112,6 @@ button {
 .link {
   display: block;
   text-align: center;
-  margin-top: 5px;
+  margin-top: 10px;
   color: #456268;
 }
