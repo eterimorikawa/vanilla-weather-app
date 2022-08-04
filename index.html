@@ -22,94 +22,109 @@
   </head>
   <body>
     <div class="container">
-      <main>
-        <form class="search-line" id="search-form">
-          <input
-            type="search"
-            id="search-input"
-            placeholder="Enter a city..."
-          />
-          <button class="search-btn">Search</button>
-          <button class="current-btn" id="current-location-button">
-            Current
-          </button>
-        </form>
+      <div class="main-wrapper">
+        <main>
+          <form class="search-line" id="search-form">
+            <input
+              type="search"
+              id="search-input"
+              placeholder="Enter a city..."
+            />
+            <button class="search-btn">Search</button>
+            <button class="current-btn" id="current-location-button">
+              Current
+            </button>
+          </form>
 
-        <h1 class="location" id="city"></h1>
-        <h2 class="date" id="date"></h2>
+          <h1 class="location" id="city"></h1>
+          <h2 class="date" id="date"></h2>
 
-        <div>
-          <div class="row">
-            <div class="col-4">
-              <img src="img/sunny.png" alt="Sunny" class="main-img" />
-              <p id="description"></p>
-            </div>
+          <div>
+            <div class="row">
+              <div class="col-4">
+                <img src="img/sunny.png" alt="Sunny" class="main-img" />
+                <p id="description"></p>
+              </div>
 
-            <div class="col-4">
-              <div class="main-temp">
-                <span id="temperature"></span>
-                <a href="#" id="celsius-link">°C</a>
-                |
-                <a href="#" id="fahrenheit-link">°F</a>
+              <div class="col-4">
+                <div class="main-temp">
+                  <span id="temperature"></span>
+                  <small>
+                    <a href="#" id="celsius-link">°C</a>
+                    |
+                    <a href="#" id="fahrenheit-link">°F</a>
+                  </small>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <p class="details">
+                  Humidity: <span id="humidity"></span>% <br />
+                  Wind: <span id="wind"></span> km/h <br />
+                </p>
               </div>
             </div>
+          </div>
 
-            <div class="col-4">
-              <p class="details">
-                Humidity: <span id="humidity"></span>% <br />
-                Wind: <span id="wind"></span> km/h <br />
-              </p>
+          <div class="next-week">
+            <div class="row">
+              <div class="col">
+                <p class="week-day">SAT</p>
+                <img
+                  src="img/partly-cloudy.png"
+                  alt="Partly cloudy"
+                  class="week-img"
+                />
+                <p class="week-temp">26°</p>
+              </div>
+
+              <div class="col">
+                <p class="week-day">SUN</p>
+                <img
+                  src="img/cloudy.png"
+                  alt="Partly cloudy"
+                  class="week-img"
+                />
+                <p class="week-temp">28°</p>
+              </div>
+
+              <div class="col">
+                <p class="week-day">MON</p>
+                <img
+                  src="img/partly-cloudy.png"
+                  alt="Partly cloudy"
+                  class="week-img"
+                />
+                <p class="week-temp">31°</p>
+              </div>
+
+              <div class="col">
+                <p class="week-day">TUE</p>
+                <img
+                  src="img/partly-cloudy.png"
+                  alt="Partly cloudy"
+                  class="week-img"
+                />
+                <p class="week-temp">33°</p>
+              </div>
+
+              <div class="col">
+                <p class="week-day">WED</p>
+                <img src="img/rainy.png" alt="Partly cloudy" class="week-img" />
+                <p class="week-temp">30°</p>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div class="next-week">
-          <div class="row">
-            <div class="col">
-              <p class="week-day">SAT</p>
-              <img
-                src="img/partly-cloudy.png"
-                alt="Partly cloudy"
-                class="week-img"
-              />
-              <p class="week-temp">26°</p>
-            </div>
-
-            <div class="col">
-              <p class="week-day">SUN</p>
-              <img src="img/cloudy.png" alt="Partly cloudy" class="week-img" />
-              <p class="week-temp">28°</p>
-            </div>
-
-            <div class="col">
-              <p class="week-day">MON</p>
-              <img
-                src="img/partly-cloudy.png"
-                alt="Partly cloudy"
-                class="week-img"
-              />
-              <p class="week-temp">31°</p>
-            </div>
-
-            <div class="col">
-              <p class="week-day">TUE</p>
-              <img
-                src="img/partly-cloudy.png"
-                alt="Partly cloudy"
-                class="week-img"
-              />
-              <p class="week-temp">33°</p>
-            </div>
-
-            <div class="col">
-              <p class="week-day">WED</p>
-              <img src="img/rainy.png" alt="Partly cloudy" class="week-img" />
-              <p class="week-temp">30°</p>
-            </div>
-          </div>
-        </div>
-      </main>
-      <small class="link"><a href="https://github.com/eterimorikawa/vanilla-weather-app.git" target="_blank">Open-source code</a> by Eteri Morikawa</small>
+        </main>
+        <small class="link"
+          ><a
+            href="https://github.com/eterimorikawa/vanilla-weather-app.git"
+            target="_blank"
+            >Open-source code</a
+          >
+          by Eteri Morikawa</small
+        >
+      </div>
     </div>
     <script src="src/app.js"></script>
   </body>

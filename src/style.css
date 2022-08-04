@@ -1,9 +1,12 @@
+.main-wrapper {
+  max-width: 700px;
+  margin: 90px auto 0;
+}
+
 main {
   text-align: center;
-  margin: 90px auto 0;
   padding: 40px;
   background: #fcf8ec;
-  max-width: 700px;
   border: 1px solid #f7f2e2;
   border-radius: 15px;
   font-family: "Assistant", sans-serif;
@@ -58,7 +61,7 @@ button {
 .location {
   font-size: 24px;
   font-weight: 700;
-  margin: 33px 0 0;
+  margin: 27px 0 0;
   text-transform: capitalize;
 }
 
@@ -80,8 +83,14 @@ button {
 }
 
 .main-temp {
-  font-size: 34px;
+  font-size: 38px;
   margin: 25px 0 0;
+}
+
+.main-temp small {
+  font-size: 22px;
+  position: relative;
+  top: -10px;
 }
 
 #celsius-link {
@@ -111,7 +120,6 @@ button {
 
 .link {
   display: block;
-  text-align: center;
-  margin-top: 10px;
+  margin: 8px 20px 0;
   color: #456268;
 }
