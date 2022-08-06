@@ -1,31 +1,30 @@
 .main-wrapper {
   max-width: 700px;
-  margin: 90px auto 0;
+  margin: 100px auto 0;
 }
 
 main {
   text-align: center;
-  padding: 40px;
-  background: #fcf8ec;
-  border: 1px solid #f7f2e2;
-  border-radius: 15px;
-  font-family: "Assistant", sans-serif;
-  color: #456268;
+  padding: 30px;
+  background: #fff;
+  border: 1px solid #dadad9;
+  border-radius: 10px;
+  font-family: "Zilla Slab", serif;
+  color: #48484a;
 }
 
 input {
-  width: 70%;
+  width: 100%;
   font-size: 18px;
-  color: #456268;
+  color: #48484a;
   padding: 6px 10px;
-  border: 1px solid #d9d6cc;
+  border: 1px solid #dadad9;
   border-radius: 5px;
   font-family: "Assistant", sans-serif;
-  margin: 0;
 }
 
 input:focus {
-  outline: 2px solid #d0e8f2;
+  outline: 2px solid #dde6eb7d;
   border-radius: 5px;
 }
 
@@ -33,14 +32,14 @@ button {
   font-size: 18px;
   color: #fcf8ec;
   border: none;
-  padding: 6px 8px;
+  padding: 7px;
   transition: all 150ms ease-in-out;
 }
 
 .search-btn {
-  background: #8abccd;
-  margin-left: 10px;
+  background: #a0c1d1;
   border-radius: 5px;
+  width: 100px;
 }
 
 .search-btn:hover {
@@ -48,14 +47,12 @@ button {
 }
 
 .current-btn {
-  background: #b9c368;
-  margin-left: 5px;
-  margin-top: 8px;
+  background: #f2f2f1;
   border-radius: 5px;
 }
 
 .current-btn:hover {
-  background: #a5ae5d;
+  background: #dadad9;
 }
 
 .location {
@@ -65,9 +62,9 @@ button {
 }
 
 .date {
-  color: #79a3b1;
+  color: #48484a;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   margin: 0;
 }
 
@@ -80,13 +77,14 @@ button {
 }
 
 .main-img {
-  width: 60px;
-  margin: 17px 0 5px;
+  width: 100px;
+  margin: 0;
+  padding: 0;
 }
 
 .main-temp {
   font-size: 38px;
-  margin: 25px 0 0;
+  margin: 35px 0 0;
 }
 
 .main-temp small {
@@ -104,7 +102,7 @@ button {
 }
 
 .details {
-  margin: 30px 0 0;
+  margin: 36px 0 0;
 }
 
 .week-day {
@@ -122,6 +120,7 @@ button {
 
 .link {
   display: block;
-  margin: 8px 20px 0;
-  color: #456268;
+  margin: 10px 20px 0;
+  color: #48484a;
+  font-family: "Zilla Slab", serif;
 }
