@@ -118,9 +118,18 @@ button {
   margin: 0;
 }
 
+.main-temp .active {
+  color: #48484a;
+  cursor: default;
+}
+
+.main-temp .active:hover {
+  text-decoration: none;
+}
+
 .link {
   display: block;
-  margin: 10px 20px 0;
+  margin: 5px 10px 0;
   color: #48484a;
   font-family: "Zilla Slab", serif;
 }
