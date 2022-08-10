@@ -48,47 +48,32 @@
           <h1 class="location" id="city"></h1>
           <h2 class="date" id="date"></h2>
 
-            <div class="row">
-              <div class="col-4">
-                <img src="" alt="" class="main-img" id="icon" />
-                <p id="description"></p>
-              </div>
+          <div class="row">
+            <div class="col-4">
+              <img src="" alt="" class="main-img" id="icon" />
+              <p id="description"></p>
+            </div>
 
-              <div class="col-4">
-                <div class="main-temp">
-                  <span id="temperature"></span>
-                  <small>
-                    <a href="#" id="celsius-link" class="active">°C</a>
-                    |
-                    <a href="#" id="fahrenheit-link">°F</a>
-                  </small>
-                </div>
-              </div>
-
-              <div class="col-4">
-                <p class="details">
-                  Humidity: <strong><span id="humidity"></span>%</strong> <br />
-                  Wind: <strong><span id="wind"></span> km/h</strong> <br />
-                </p>
+            <div class="col-4">
+              <div class="main-temp">
+                <span id="temperature"></span>
+                <small>
+                  <a href="#" id="celsius-link" class="active">°C</a>
+                  |
+                  <a href="#" id="fahrenheit-link">°F</a>
+                </small>
               </div>
             </div>
 
-          <div class="weather-forecast">
-            <div class="row">
-              <div class="col-2">
-                <div class="weather-forecast-date">Thu</div>
-                <img
-                  src="https://ssl.gstatic.com/onebox/weather/48/thunderstorms.png"
-                  alt="thunderstorms"
-                  width="42"
-                />
-                <div class="weather-forecast-temperatures">
-                  <span>22°</span>
-                  <span class="weather-forecast-temperature-min">17°</span>
-                </div>
-              </div> 
+            <div class="col-4">
+              <p class="details">
+                Humidity: <strong><span id="humidity"></span>%</strong> <br />
+                Wind: <strong><span id="wind"></span> km/h</strong> <br />
+              </p>
             </div>
           </div>
+
+          <div class="weather-forecast" id="forecast"></div>
         </main>
         <small class="link">
           <a
