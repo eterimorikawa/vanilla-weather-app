@@ -93,6 +93,10 @@ button {
   top: -10px;
 }
 
+.details {
+  margin: 35px 0 0;
+}
+
 #celsius-link {
   text-decoration: none;
 }
@@ -101,21 +105,13 @@ button {
   text-decoration: none;
 }
 
-.details {
-  margin: 36px 0 0;
+.weather-forecast {
+  margin: 30px 0 0;
+  text-align: center;
 }
 
-.week-day {
-  margin: 20px 0 0;
-}
-
-.week-img {
-  width: 40px;
-  margin: 5px 0;
-}
-
-.week-temp {
-  margin: 0;
+.weather-forecast-temperature-min {
+  opacity: 0.7;
 }
 
 .main-temp .active {
